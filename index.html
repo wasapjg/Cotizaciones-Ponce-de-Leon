@@ -10,77 +10,97 @@
 <body>
     <header>
         <div class="logo">
-            <img class="imagenLogo" src="#" alt="logo">
+            <a href="./index.html"><img class="imagenLogo" src="img/logo.png" alt="logo"></a>
         </div>
-        <div class="buscador">
-            <input text class="barraBusqueda" placeholder="buscar..."></input>
-            <button class="botonBusqueda"><i class="fas fa-search"></i></button>
-        </div>
-        <div class="registrador">
-            <button class="registrar">registrate</button>
-            <button class="iniciar-secion">ingresar</button>
-        </div>
-        <div class="contactar-header">
-            <p>Contactanos</p>
-            <i class="fab fa-whatsapp"></i>
-        </div>
+        <nav>
+            <a href="./index.html"><h6>INICIO</h6></a>
+            <div class="seeker">
+                <input text class="barSeeker" placeholder="buscar...">
+                <button class="buttonSeeker"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="register">
+                <button class="logIn"><a href="./ingreso.html">ingresar</a></button>
+                <button class="signUp"><a href="./registro.html">registrate</a></button>
+            </div>
+            <button class="contactHeader">
+                <a href="./contactanos.html">Contactanos
+                <i class="fab fa-whatsapp"></i></a>
+            </button>
+        </nav>
     </header>
 
     <nav>
-        <div class="contenedorFiltros">
-            <ul class="filtros">
-                <li class="filtro-1"><a href="#">filtro</a></li>
-                <li class="filtro-2"><a href="#">filtro</a></li>
-                <li class="filtro-3"><a href="#">filtro</a></li>
-                <li class="filtro-4"><a href="#">filtro</a></li>
-                <li class="filtro-5"><a href="#">filtro</a></li>
-                <li class="filtro-6"><a href="#">filtro</a></li>
+        <div class="ContainerFilters">
+            <ul class="filters">
+                <li class="filter-1"><a href="./filtro1.html">filtro</a></li>
+                <li class="filter-2"><a href="./filtro2.html">filtro</a></li>
+                <li class="filter-3"><a href="./filtro3.html">filtro</a></li>
+                <li class="filter-4"><a href="./filtro4.html">filtro</a></li>
             </ul>
         </div>
     </nav>
 
     <section>
-        <div class="contenedor">
-            <div class="contenedorProducto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
+        <div class="container">
+            <h1>Solicita tu cotización</h1>
+            <table class="tableProduct" border="solid 1px black">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Informacion tecnica</th>
+                    <th>Caracteristicas</th>
+                </tr>
+                <tr>
+                    <td>Pólizas de seguros</td>
+                    <td>
+                        <ul>
+                            <li>Contrato donde tu pagando una prima,<br>la compania se obliga a pagar ante un<br> siniestro espesificado en el contrato.</li>
+                            <li>Puedes obtener tu póliza contactandote con una compania.</li>
+                            <li>Puedes obtener tu poliza por medio de un <br> mediador los cuales te ayudaran y asesoraran <br> en tanto la compra y cotización <br> de tu seguro, cualquier duda que <br> se te pueda presentar y te <br> agilizaran la mayoria de tus tramitres.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                Puedes asegurar practicamente cualquier <br> cosa que tenga un precio.
+                            </li>
+                            <li>
+                                Te podemos cotizar tu seguro en diferentes <br> companias con las que trabajamos para <br> que tu decidas la que mas te convenga.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table><br>
+            <div class="containerProduct">
+                <img src="img/moto.jpg" alt="fotos de los productos">
+                <h3 class="product">producto</h3>
                 <button class="solicitar">solicitar</button>
             </div>
-            <div class="producto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
+            <div class="containerProduct">
+                <img src="img/auto.jpg" alt="fotos de los productos">
+                <h3 class="product">producto</h3>
                 <button class="solicitar">solicitar</button>
             </div>
-            <div class="producto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
+            <div class="containerProduct">
+                <img src="img/casa.jpg" alt="fotos de los productos">
+                <h3 class="product">producto</h3>
                 <button class="solicitar">solicitar</button>
             </div>
-            <div class="producto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
+            <div class="containerProduct">
+                <img src="img/rob.jpg" alt="fotos de los productos">
+                <h3 class="product">producto</h3>
                 <button class="solicitar">solicitar</button>
             </div>
-            <div class="producto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
+            <div class="containerProduct">
+                <img src="img/bici.jpg" alt="fotos de los productos">
+                <h3 class="product">producto</h3>
                 <button class="solicitar">solicitar</button>
             </div>
-            <div class="producto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
+            <div class="containerProduct">
+                <img src="img/accidentePersonal.jpg" alt="fotos de los productos">
+                <h3 class="product">producto</h3>
                 <button class="solicitar">solicitar</button>
             </div>
-            <div class="producto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
-                <button class="solicitar">solicitar</button>
-            </div>
-            <div class="producto">
-                <img src="#" alt="fotos de los productos">
-                <div class="producto">producto</div>
-                <button class="solicitar">solicitar</button>
-            </div>
+            
         </div>
     </section>
     
@@ -97,7 +117,7 @@
         <div class="mail-num">
             <p>Mail-Num</p>
         </div>
-        <div class="redes">
+        <div class="socialmedia">
             <i class="fab fa-whatsapp"></i>
             <i class="fab fa-instagram"></i>
             <i class="fab fa-facebook-square"></i>
