@@ -1,19 +1,27 @@
 *{
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
 }
 
 /*Estilo del header*/
 
 header{
-    background-color: #000022;
+    background-color: #03034b;
 }
 
 .imagenLogo{
     width: 128px;
 }
 
+nav h6 {
+    font-size: large;
+}
+
 .contactHeader{
-    background-color: #000011;
+    background-color: #000000;
 }
 
 .contactHeader a{
@@ -53,4 +61,12 @@ td{
 
 span{
     color: green;
+}
+
+/*Producto*/
+
+.solicitar{
+    width: 100vh;
+    height: 4vh;
+    background-color: #4357C8;
 }
