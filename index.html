@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>cotizalo</title>
@@ -12,10 +12,14 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="./index.html"><img class="imagenLogo" src="img/logo.png" alt="logo"></a>
-        </div>
         <nav>
+            <div class="submenu">
+                <i class="fas fa-bars fa-lg"></i>
+            </div>
+            <div class="logo">
+                <a href="./index.html"><img class="imagenLogo" src="img/logo.png" alt="logo"></a>
+            </div>
+            
             <a href="./index.html"><h6>INICIO</h6></a>
             <div class="seeker">
                 <input text class="barSeeker" placeholder="buscar...">
@@ -32,15 +36,13 @@
         </nav>
     </header>
 
-    <nav>
-        <h6>AGILIZA LA BUSQUEDA</h6>
-        <hr>
+    <nav class="navFilter">
         <div class="ContainerFilters">
             <ul class="filters">
-                <li class="filter-1"><a href="html/filtro1.html">filtro ></a></li>
-                <li class="filter-2"><a href="html/filtro2.html">filtro ></a></li>
-                <li class="filter-3"><a href="html/filtro3.html">filtro ></a></li>
-                <li class="filter-4"><a href="html/filtro4.html">filtro ></a></li>
+                <li class="filter-1"><button><a href="html/filtro1.html">filtro ></a></button></li>
+                <li class="filter-2"><button><a href="html/filtro2.html">filtro ></a></button></li>
+                <li class="filter-3"><button><a href="html/filtro3.html">filtro ></a></button></li>
+                <li class="filter-4"><button><a href="html/filtro4.html">filtro ></a></button></li>
             </ul>
         </div>
     </nav>
@@ -48,8 +50,6 @@
     <section>
         <div class="container">
             <h1>Solicita tu cotización</h1>
-            <h6>CONOCE LO QUE NECESITAS</h6>
-            <hr>
             <table class="tableProduct" border="solid 1px black">
                 <tr>
                     <th>Nombre</th>
@@ -80,8 +80,6 @@
                     </td>
                 </tr>
             </table><br>
-            <h6>TE OFECEMOS ESTAS PÓLIZAS</h6>
-            <hr>
             <div class="containerProduct">
                 <img src="img/moto.jpg" alt="fotos de los productos">
                 <h3 class="product">MOTOS</h3>
