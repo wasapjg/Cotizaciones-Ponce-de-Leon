@@ -73,8 +73,7 @@
     .contactHeader{
         background-color: #000000;
         height: 40px;
-        margin-top: 60px;
-        grid-column: 3/4;
+        grid-column: 2/3;
         grid-row: 1/2;
         margin-right: 5px;
         outline: none;
@@ -218,8 +217,8 @@
         }
         
             .imagenLogo{
-                width: 75%;
-                height: 75%;
+                width: 70%;
+                height: 70%;
             }
         
         nav h6 {
@@ -446,8 +445,7 @@
         }
         
             .imagenLogo{
-                width: 60%;
-                height: 100%;
+                width: 40%;
             }
 
         .seeker{
